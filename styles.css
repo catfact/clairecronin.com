@@ -11,6 +11,7 @@
     @apply text-lg text-indigo no-underline;
 }
 .content-section-box {
+    @apply whitespace-pre-line;
     @apply min-h-screen pb-32;
 }
 

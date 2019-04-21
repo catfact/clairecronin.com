@@ -12,6 +12,9 @@
 <!---------------------------------------------->
 <!-- scripts ----------------------------------->
 
+<!-- showdown -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+
 <script>
     // request content stored in an external file.
     // file: relative path to file
@@ -27,13 +30,24 @@
         request.send();
     }
 
-    function add_menu_item(file, id, target) {
+    // often, the current anchor is going to point to dynamic content that is not loaded yet
+    // this should check the anchor and re-navigate to iT
+    function refresh_anchor() {
+        var urlParts = document.URL.split('#');
+        var anchor = (urlParts.length > 1) ? urlParts[1] : null;
+        if (anchor) { 
+            window.location.href = "#"+anchor;
+        }
+    }
+
+    function add_menu_item(name) {
+        var file = "content/"+name + ".md";
+        var box = document.querySelector("#"+name);
         load_content(file, function (txt) {
-            var content_section_box = document.createElement("div");
-            content_section_box.className = "content-section-box whitespace-pre-line";
-            content_section_box.id = id;
-            content_section_box.appendChild(document.createTextNode(txt));
-            target.appendChild(content_section_box);
+            var converter = new showdown.Converter();
+            var html = converter.makeHtml(txt);
+            box.innerHTML = html;
+            refresh_anchor();
         });
     }
 </script>
@@ -54,11 +68,16 @@
 
             <!-- main content section -->
             <div id="content-box" class="flex-1 m-0 p-0 pl-8 max-h-screen overflow-y-scroll">
+                <div class="content-section-box"><img src="images/sorrowhand.jpg">
+                    <div id="about" class="content-section-box"></div>
+                    <div id="writing" class="content-section-box"></div>
+                    <div id="music" class="content-section-box"></div>
+                </div>
                 <script>
                     var content_box = document.querySelector("#content-box");
-                    add_menu_item("content/about.md", "about", content_box);
-                    add_menu_item("content/writing.md", "writing", content_box);
-                    add_menu_item("content/music.md", "music", content_box);
+                    add_menu_item("about");
+                    add_menu_item("writing");
+                    add_menu_item("music");
                 </script>
             </div>
         </div>
