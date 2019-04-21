@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>claire cronin</title>
+
+<!-- style stuff -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/preflight.min.css" rel="stylesheet">
+<style>
+    <!-- add more style stuff-->
+</style>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/utilities.min.css" rel="stylesheet">
+
+<!-- content stuff -->
+<!-- <link rel="import" href="imports/about.html"> -->
+<!-- <link rel="import" href="imports/music.html"> -->
+
+<body>
+
+    <div class="container mx-auto px-32">
+        <div>
+            <div>Claire Cronin</div>
+            <div class='menu'>
+                <a href="#about" class='menu-link'>about</a> <br />
+                <a href="#music" class='menu-link'>music</a> <br />
+                <a href="#writing" class='menu-link'>writing</a> <br />
+                <a href="#performance" class='menu-link'>performance</a> <br />
+                <a href="#contact" class='menu-link'>contact</a> <br />
+            </div>
+
+            <div id='content-box' class="whitespace-pre-line">
+                <script>
+                    var content_box = document.querySelector("#content-box");
+                    var link = document.querySelector('link[rel="import"]');
+                    var content = link.import;
+                    var about_el = content.querySelector("#about-content");
+                    content_box.appendChild(about_el.cloneNode(true));
+                </script>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
