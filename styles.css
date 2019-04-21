@@ -1,0 +1,17 @@
+
+@tailwind preflight;
+@tailwind components;
+
+.menu-item {   
+    @apply p-0 pl-1 pr-8 m-0 mb-1 w-full;
+    @apply bg-grey-light;
+}
+.menu-link {   
+    @apply p-0 m-0;
+    @apply text-lg text-indigo no-underline;
+}
+.content-section-box {
+    @apply min-h-screen pb-32;
+}
+
+@tailwind utilities;

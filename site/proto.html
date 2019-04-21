@@ -6,9 +6,8 @@
 <!---------------------------------------------->
 <!-- styles  ----------------------------------->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/preflight.min.css" rel="stylesheet">
-<!-- add more style tags here... -->
-<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/utilities.min.css" rel="stylesheet">
+
+<link href="css/styles.css" rel="stylesheet">
 
 <!---------------------------------------------->
 <!-- scripts ----------------------------------->
@@ -19,43 +18,47 @@
     // callback: asynchronous content handler
     function load_content(file, callback) {
         var request = new XMLHttpRequest();
-        request.onload = function() {
-            if (this.status == 200) { 
+        request.onload = function () {
+            if (this.status == 200) {
                 callback(this.responseText);
             }
         };
         request.open('GET', file, true);
         request.send();
     }
+
+    function add_menu_item(file, id, target) {
+        load_content(file, function (txt) {
+            var content_section_box = document.createElement("div");
+            content_section_box.className = "content-section-box whitespace-pre-line";
+            content_section_box.id = id;
+            content_section_box.appendChild(document.createTextNode(txt));
+            target.appendChild(content_section_box);
+        });
+    }
 </script>
 
 <body>
 
-    <div class="container mx-auto px-32">
-        <div>
-            <div>Claire Cronin</div>
-            <div class='menu'>
-                <a href="#about" class='menu-link'>about</a> <br />
-                <a href="#music" class='menu-link'>music</a> <br />
-                <a href="#writing" class='menu-link'>writing</a> <br />
-                <a href="#performance" class='menu-link'>performance</a> <br />
-                <a href="#contact" class='menu-link'>contact</a> <br />
+    <div class="container bg-grey-lightest mx-auto p-0 m-0">
+        <div class="flex p-0 m-0 mt-4">
+            <!-- menu -->
+            <div class="flex-initial p-0 m-0">
+                <div class="text-2xl pl-2 pt-2 pb-12 m-0 pr-4">Claire Cronin</div>
+                <div class="menu-item"><a class="menu-link" href="#about">about</a></div>
+                <div class="menu-item"><a class="menu-link" href="#writing">writing</a></div>
+                <div class="menu-item"><a class="menu-link" href="#music">music</a></div>
+                <!-- <div class="menu-item"><a class="menu-link" href="#performance">performance</a></div> -->
+                <!-- <div class="menu-item"><a class="menu-link" href="#contact">contact</a></div> -->
             </div>
 
-            <div id='content-box' class="whitespace-pre-line">
+            <!-- main content section -->
+            <div id="content-box" class="flex-1 m-0 p-0 pl-8 max-h-screen overflow-y-scroll">
                 <script>
-                
                     var content_box = document.querySelector("#content-box");
-                    load_content("content/about.md", function(txt) {
-                        content_box.appendChild(document.createTextNode(txt));
-                    });
-                    
-
-                    // var link = document.querySelector('link[rel="import"]');
-                    // var content = link.import;
-                    // var about_el = content.querySelector("#about-content");
-                    // content_box.appendChild(about_el.cloneNode(true));
-
+                    add_menu_item("content/about.md", "about", content_box);
+                    add_menu_item("content/writing.md", "writing", content_box);
+                    add_menu_item("content/music.md", "music", content_box);
                 </script>
             </div>
         </div>
