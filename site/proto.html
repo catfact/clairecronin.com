@@ -11,22 +11,21 @@
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/utilities.min.css" rel="stylesheet">
 
 <!---------------------------------------------->
-<!-- content ----------------------------------->
-<link rel="import" href="imports/about.md">
-<!-- <link rel="import" href="imports/music.md"> -->
-
-
-<!---------------------------------------------->
 <!-- scripts ----------------------------------->
 
 <script>
     // request content stored in an external file.
-    // blocks until request completes
-    function load_content(filename) {
+    // file: relative path to file
+    // callback: asynchronous content handler
+    function load_content(file, callback) {
         var request = new XMLHttpRequest();
-        request.open('GET', filename, false);
+        request.onload = function() {
+            if (this.status == 200) { 
+                callback(this.responseText);
+            }
+        };
+        request.open('GET', file, true);
         request.send();
-        return request.responseText;
     }
 </script>
 
@@ -44,11 +43,13 @@
             </div>
 
             <div id='content-box' class="whitespace-pre-line">
-                <script>"
+                <script>
                 
                     var content_box = document.querySelector("#content-box");
-                    var about_txt = load_content("content/about.md");
-                    content_box.appendChild(document.createTextNode(about_txt));
+                    load_content("content/about.md", function(txt) {
+                        content_box.appendChild(document.createTextNode(txt));
+                    });
+                    
 
                     // var link = document.querySelector('link[rel="import"]');
                     // var content = link.import;
