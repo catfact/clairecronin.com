@@ -2,18 +2,33 @@
 <html lang="en">
 <title>claire cronin</title>
 
-<!-- style stuff -->
 
+<!---------------------------------------------->
+<!-- styles  ----------------------------------->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/preflight.min.css" rel="stylesheet">
-<style>
-    <!-- add more style stuff-->
-</style>
+<!-- add more style tags here... -->
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/utilities.min.css" rel="stylesheet">
 
-<!-- content stuff -->
-<!-- <link rel="import" href="imports/about.html"> -->
-<!-- <link rel="import" href="imports/music.html"> -->
+<!---------------------------------------------->
+<!-- content ----------------------------------->
+<link rel="import" href="imports/about.md">
+<!-- <link rel="import" href="imports/music.md"> -->
+
+
+<!---------------------------------------------->
+<!-- scripts ----------------------------------->
+
+<script>
+    // request content stored in an external file.
+    // blocks until request completes
+    function load_content(filename) {
+        var request = new XMLHttpRequest();
+        request.open('GET', filename, false);
+        request.send();
+        return request.responseText;
+    }
+</script>
 
 <body>
 
@@ -29,12 +44,17 @@
             </div>
 
             <div id='content-box' class="whitespace-pre-line">
-                <script>
+                <script>"
+                
                     var content_box = document.querySelector("#content-box");
-                    var link = document.querySelector('link[rel="import"]');
-                    var content = link.import;
-                    var about_el = content.querySelector("#about-content");
-                    content_box.appendChild(about_el.cloneNode(true));
+                    var about_txt = load_content("content/about.md");
+                    content_box.appendChild(document.createTextNode(about_txt));
+
+                    // var link = document.querySelector('link[rel="import"]');
+                    // var content = link.import;
+                    // var about_el = content.querySelector("#about-content");
+                    // content_box.appendChild(about_el.cloneNode(true));
+
                 </script>
             </div>
         </div>
