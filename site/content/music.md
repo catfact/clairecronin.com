@@ -23,6 +23,7 @@ The album is a collaboration between Cronin and Deerhoof guitarist John Dieteric
 5. Dark Water 
 6. Dreamt the Sea 
 
+
 Claire Cronin: words, voice, and guitar 
 John Dieterich: guitars, sounds, arrangements, production.
 All Songs by Claire Cronin and John Dieterich. 
@@ -38,6 +39,43 @@ Recorded by Jay Pellicci and John in John's closet. 
 Parts of Dreamt the Sea recorded at New, Improved Recording. 
 Mixed with Jay Pellicci at New, Improved Recording. 
 Mastered by John.
+
+
+
+## *Came Down a Storm (2016)*
+
+LP released May 6, 2016 on Ba Da Bing Records
+
+Came Down a Storm is an album that creates a world of wreckage and redemption. Cronin uses images and symbols to craft songs that reach beyond the personal. She sings of death in a field, death at sea, dreams of dying, and a vision of a future where death is no longer allowed, yet the music is not depressing. Even in its darkest lines, these songs aim to float.
+
+The album is a collaboration between Cronin and Deerhoof guitarist John Dieterich, who met by chance at a Los Angeles show and began writing songs together long-distance. After sending recordings and ideas back and forth over email for a year, Cronin joined Dieterich at his house in Albuquerque, New Mexico, to record Came Down a Storm. It was mixed with Jay Pellici at New, Improved Recordings in Oakland, California, where the full instrumentation was put in place. The album features Pellici and Chris Vatalaro on drums and Ezra Buchla and Heather Trost on strings.
+
+<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2452684361/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://badabingrecords.bandcamp.com/album/came-down-a-storm-3">Came Down A Storm by Claire Cronin</a></iframe>
+
+<details>
+1. The Unnatural 
+2. In the Field 
+3. Valentine 
+4. Meet Me Undertakers 
+5. Dark Water 
+6. Dreamt the Sea 
+
+Claire Cronin: words, voice, and guitar 
+John Dieterich: guitars, sounds, arrangements, production.
+All Songs by Claire Cronin and John Dieterich. 
+
+Art and Layout by Marcos Sánchez.
+
+Ezra Buchla: viola (the Unnatural, Dreamt the Sea).
+Jay Pellicci: drums (In the Field, Dark Water, Dreamt the Sea). 
+Heather Trost: violin (The Unnatural, Meet Me Undertakers, Dreamt the Sea). 
+Chris Vatalaro: drums (Valentine).
+
+Recorded by Jay Pellicci and John in John's closet. 
+Parts of Dreamt the Sea recorded at New, Improved Recording. 
+Mixed with Jay Pellicci at New, Improved Recording. 
+Mastered by John.
+</details>
 
 ## *Over and Through* (2015)
 
