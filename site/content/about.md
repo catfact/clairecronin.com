@@ -1,3 +1,5 @@
+# ABOUT
+
 Claire Cronin is an interdisciplinary artist and scholar from Los Angeles who currently lives in Athens, GA.
 
 Her new record, _Big Dread Moon_, comes out June 14, 2019 from Orindal Records. In 2016, Ba Da Bing Records released *Came Down a Storm*, a collaborative album with John Dieterich.

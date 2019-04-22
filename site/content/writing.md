@@ -12,6 +12,7 @@ in [*Bennington Review, Issue 3*](http://www.benningtonreview.org/claire-cronin-
 in [*Yes Femmes, Issue 2*](http://yesfemmes.com/issues/fandom/on-mysteria-hds-mystical-hysterical-poetics)
 
 -----
+
 ## CHAPBOOKS
 
 #### *A Spirit is a Mood Without a Body*, Salt Hill 2018.
