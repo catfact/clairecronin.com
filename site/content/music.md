@@ -1,7 +1,7 @@
 
 # MUSIC 
 
-## *Big Dread Moon*
+## *Big Dread Moon* (2019)
 
 !["big dread moon" cover](images/bigdreadmoon.jpg)
 
@@ -27,7 +27,7 @@ All songs by Claire Cronin.
 
 [Orindal Records](http://orindal.limitedrun.com) will release *Big Dread Moon* on June 14, 2019.
 
-## *Came Down a Storm (2016)*
+## *Came Down a Storm* (2016)
 
 !["came down a storm" cover](images/camedownastorm.jpg)
 
