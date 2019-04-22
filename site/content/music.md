@@ -7,6 +7,17 @@
 
 *Big Dread Moon* is a record of spiritual urgency. Cronin's lyrics and melodies draw on the the stranger aspects of early American musical tradition, revealing the genre’s ties to “folk horror,” wherein supernatural and mundane worlds merge. Quietly sinister ballads like "Tourniquet" and "Wolfman" arise from the weird logic of dream, myth, and half-forgotten memories. Suburban homes, TV screens, and city landscapes are haunted by saints, beasts, ghosts, seers, and a “calm and decisionless” god. Lyrics which implore or command act like prayers or spells embedded inside Cronin's fever dream stories and personal confessions. These are devastatingly spare, delicate, emotionally intense songs, arranged around electric guitar, viola, and Cronin’s singular voice.
 
+#### Tracks
+
+1. Tourniquet
+2. What the Night is Thinking
+3. Wolfman
+4. Saint’s Lake
+5. Like a Shield
+6. Call Out
+7. Six Guns
+8. The Lamb
+
 #### Credits
 Recorded and mixed at [Figure 8](http://figure8recording.com/) in Brooklyn by Shahzad Ismaily and mastered with additional mixing by Matt Mehlan. 
 Ezra Buchla: viola, piano, synth, guitar. 
@@ -22,9 +33,11 @@ All songs by Claire Cronin.
 
 LP released May 6, 2016 on [Ba Da Bing Records](https://badabingrecords.bandcamp.com/album/came-down-a-storm-3)
 
-*Came Down a Storm* is an album that creates a world of wreckage and redemption. Cronin uses images and symbols to craft songs that reach beyond the personal. She sings of death in a field, death at sea, dreams of dying, and a vision of a future where death is no longer allowed, yet the music is not depressing. Even in its darkest lines, these songs aim to float.
+*Came Down a Storm* is an album that creates a world. Through Claire Cronin’s deep, intimate voice come songs of wreckage and redemption. Cronin uses images and symbols to craft songs that reach beyond the personal. She sings of death in a field, death at sea, dreams of dying, and a vision of a future where death is no longer allowed. Yet the record is not depressing; even in its darkest lines, these songs aim to float.
 
-The album is a collaboration between Cronin and Deerhoof guitarist John Dieterich, who met by chance at a Los Angeles show and began writing songs together long-distance. After sending recordings and ideas back and forth over email for a year, Cronin joined Dieterich at his house in Albuquerque, New Mexico, to record *Came Down a Storm*. It was mixed with Jay Pellici at New, Improved Recordings in Oakland, California, where the full instrumentation was put in place. The album features Pellici and Chris Vatalaro on drums and Ezra Buchla and Heather Trost on strings.
+The album is a collaboration between Cronin and Deerhoof guitarist John Dieterich, who met by chance at a Los Angeles show and began writing songs together long-distance. After sending recordings and ideas back and forth over email for a year, Cronin joined Dieterich at his house in Albuquerque, New Mexico to record. 
+
+The spare, melancholy style of Cronin’s previous self-released work is evident in this album, but the music created with Dieterich takes *Came Down a Storm* beyond the folk genre. The instruments build around her singing: breaking to crescendos, driving emotional currents, or providing lively counterpoint to the lyrics’ funeral themes.
 
 #### Tracks
 
