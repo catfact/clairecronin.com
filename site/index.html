@@ -56,18 +56,30 @@
 <body class="bg-grey-lightest">
 
     <div class="container bg-grey-lighter mx-auto p-0 m-0 h-screen w-screen">
-        <div class="fixed pin-t pin-l pl-4 m-0 flex bg-grey-lighter">
-            <a class="menu-link" href="#about">about</a>
-            <a class="menu-link" href="#writing">writing</a>
-            <a class="menu-link" href="#music">music</a>
+        <div class="fixed pin-t pin-l pl-4 pt-1 pb-1 m-0 bg-grey-lighter w-full flex flex-wrap">
+            <div class="sm:mr-16 md:mr-32 lg:mr-32 xl:mr-64 pt-1">
+                <a class="menu-link" href="#about">ABOUT</a>
+                <a class="menu-link" href="#writing">WRITING</a>
+                <a class="menu-link" href="#music">MUSIC</a>
+            </div>
+            <div class="flex-grow text-right pr-2 pt-1">
+                <a href="https://twitter.com/churchofdespair"><img src="images/twitter.svg" alt="twitter"
+                        class="social"></a>
+                &nbsp;
+                <a href="https://instagram.com/overandthrough"><img src="images/instagram.svg" alt="instagram"
+                        class="social"></a>
+                &nbsp;
+                <a href="https://open.spotify.com/artist/3QpahvBtZqiCtP5aacbX1I"><img src="images/spotify.svg"
+                        alt="spotify" class="social"></a>
+            </div>
         </div>
 
         <!-- main content section -->
         <div id="content-box" class="m-0 px-1 mt-12 max-w-full max-h-screen overflow-y-scroll">
-
-            <div>
-                <div class="p-2 mb-8 text-3xl font-medium text-left float-left font-serif">Claire Cronin</div>
-                <div class="p-2 text-left float-right pr-4">
+            <!-- 
+            <div class="flex w-full m-1 p-1">
+                <div class="flex-initial p-2 mb-8 text-3xl font-medium text-left font-serif">Claire Cronin</div>
+                <div class="flex-initial p-2  pt-4 text-right pr-4">
                     <a href="https://twitter.com/churchofdespair"><img src="images/twitter.svg" alt="twitter"
                             class="social"></a>
                     &nbsp;
@@ -77,9 +89,9 @@
                     <a href="https://open.spotify.com/artist/3QpahvBtZqiCtP5aacbX1I"><img src="images/spotify.svg"
                             alt="spotify" class="social"></a>
                 </div>
-            </div>
-
-            <div><img src="images/sorrowhand.jpg"></div>
+            </div> -->
+            <div class="p-2 mb-8 mt-8 text-3xl font-medium text-left font-serif">Claire Cronin</div>
+            <div class="float-none p-1 m-1"><img src="images/sorrowhand.jpg"></div>
 
             <div id="about" class="content-section-box"></div>
             <div id="writing" class="content-section-box"></div>
