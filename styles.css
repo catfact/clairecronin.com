@@ -2,30 +2,12 @@
 @tailwind preflight;
 @tailwind components;
 
-.main {
-    @apply font-sans;
-}
-
-.nav {
-    @apply font-serif;
-}
-
-#menu-title {
-    @apply text-3xl;
-    @apply text-left pr-2 pb-2 m-0 pl-32 mb-2;
-    @apply float-left;
-    @apply flex-none;
-}
-
-.menu-item {   
+.menu-link {   
     @apply flex-1;
     @apply font-sans;
     @apply px-2 m-1 float-left float-right;
     @apply text-center;
     @apply border-grey-light border-r border-l border-b border-t;
-}
-
-.menu-link {   
     @apply p-0 mx-4;
     @apply text-lg text-indigo-darker no-underline;
 }
@@ -72,6 +54,10 @@ h3 {
 }
 
 h4 { 
+    @apply font-serif font-medium
+}
+
+h5 { 
     @apply font-serif font-medium
 }
 

@@ -15,13 +15,14 @@ in [*Yes Femmes, Issue 2*](http://yesfemmes.com/issues/fandom/on-mysteria-hds-my
 
 ## CHAPBOOKS
 
-#### *A Spirit is a Mood Without a Body*, Salt Hill 2018.
+#### *A Spirit is a Mood Without a Body*
+Salt Hill 2018.
 Winner of the Dead Lake Chapbook Contest, judged by Ari Banias. 
 Available here: [Salt Hill](http://salthilljournal.net/a-spirit-is-a-mood-without-a-b/)
 
 
-#### *Therese*, H\_NGM\_N Press 2014 
-Out of print.
+#### *Therese*
+H\_NGM\_N Press 2014 (Out of print.)
 Review by Becky Varley-Winter in [*Sabotage Reviews*](http://sabotagereviews.com/2015/04/07/therese-by-claire-cronin/)
 Review by Katie Burke in [*probably crying*](http://probablycryingreview.com/post/106612914295/therese-by-claire-cronin-im-therese-youre)
 
