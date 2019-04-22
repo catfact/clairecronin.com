@@ -16,9 +16,6 @@ Came Down a Storm is an album that creates a world of wreckage and redemption. 
 
 The album is a collaboration between Cronin and Deerhoof guitarist John Dieterich, who met by chance at a Los Angeles show and began writing songs together long-distance. After sending recordings and ideas back and forth over email for a year, Cronin joined Dieterich at his house in Albuquerque, New Mexico, to record Came Down a Storm. It was mixed with Jay Pellici at New, Improved Recordings in Oakland, California, where the full instrumentation was put in place. The album features Pellici and Chris Vatalaro on drums and Ezra Buchla and Heather Trost on strings.
 
-<details>
-Tracks:
-
 1. The Unnatural 
 2. In the Field 
 3. Valentine 
@@ -41,16 +38,12 @@ Recorded by Jay Pellicci and John in John's closet. 
 Parts of Dreamt the Sea recorded at New, Improved Recording. 
 Mixed with Jay Pellicci at New, Improved Recording. 
 Mastered by John.
-</details>
 
-## Over and Through (2015)
+## *Over and Through* (2015)
 
 Tape released September 24, 2015 on Ba Da Bing Records
 
 A "best of" compilation of Claire Cronin's self-released songs from the past few years.
-
-<details>
-Tracks:
 
 1. In Los Angeles 
 2. Proof of Names 
@@ -62,42 +55,55 @@ Tracks:
 8. Weight of the Kill  
 9. Take the Rope  
 10. Over and Through 
-</details>
 
 -------
 
 Self-released EPs from 2011 - 2014 on Bandcamp:
 
 ## Blacklegs (2014) 
-<details>
-Tracks:
 
 1. The Ghost 
 2. They Say 
 3. Thief's Wife 
 4. The Moon 
 5. Sister and Devil
-</details>
+
+<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1808959169/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://clairecronin.bandcamp.com/album/blacklegs-2014">BLACKLEGS (2014) by CLAIRE CRONIN</a></iframe>
+-----------------
 
 ## Football (2012) 
-<details>
-Tracks:
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2058093152/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://clairecronin.bandcamp.com/album/football-2012">FOOTBALL (2012) by CLAIRE CRONIN</a></iframe>
 
 1. For What it is Worth 
 2. Take the Rope
-</details>
+
+
+-----------------
+
+
+## Football (2012) 
+
+1. For What it is Worth 
+2. Take the Rope
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2058093152/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://clairecronin.bandcamp.com/album/football-2012">FOOTBALL (2012) by CLAIRE CRONIN</a></iframe>
+
+-----------------
 
 ## Proof of Names (2011) 
-<details>
-Tracks:
 
 1. Weight of the Kill 
 2. Bury My Heart 
 3. Proof of Names 
 4. Return
-</details>
 
-## Unlisted earlier EPs: 
+<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=427382688/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://clairecronin.bandcamp.com/album/proof-of-names-2011">PROOF OF NAMES (2011) by CLAIRE CRONIN</a></iframe>
+
+---------------
+
+## Unlisted earlier EPs
+
 - Disquiet Objects (2010) 
 - For the Hammer (2009) 
 - Love Songs for Lost Rooms (2009)

@@ -6,6 +6,7 @@
 <!---------------------------------------------->
 <!-- styles  ----------------------------------->
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Cousine|Merriweather|Merriweather+Sans" rel="stylesheet">
 
 <link href="css/styles.css" rel="stylesheet">
 
@@ -35,14 +36,14 @@
     function refresh_anchor() {
         var urlParts = document.URL.split('#');
         var anchor = (urlParts.length > 1) ? urlParts[1] : null;
-        if (anchor) { 
-            window.location.href = "#"+anchor;
+        if (anchor) {
+            window.location.href = "#" + anchor;
         }
     }
 
     function add_menu_item(name) {
-        var file = "content/"+name + ".md";
-        var box = document.querySelector("#"+name);
+        var file = "content/" + name + ".md";
+        var box = document.querySelector("#" + name);
         load_content(file, function (txt) {
             var converter = new showdown.Converter();
             var html = converter.makeHtml(txt);
@@ -54,20 +55,27 @@
 
 <body>
 
-    <div class="container bg-grey-lightest mx-auto p-0 m-0">
-        <div class="flex p-0 m-0 mt-4">
+    <div class="container bg-grey-lightest mx-auto p-0 m-0 h-screen">
+        <div class="main flex p-0 m-0 mt-4 h-screen">
             <!-- menu -->
-            <div class="flex-initial p-0 m-0">
-                <div class="text-2xl pl-2 pt-2 pb-12 m-0 pr-4">Claire Cronin</div>
+            <div class="nav flex-initial p-0 m-0 mb-16 pr-8 h-full">
+                <div id="menu-title">Claire Cronin</div>
                 <div class="menu-item"><a class="menu-link" href="#about">about</a></div>
                 <div class="menu-item"><a class="menu-link" href="#writing">writing</a></div>
                 <div class="menu-item"><a class="menu-link" href="#music">music</a></div>
                 <!-- <div class="menu-item"><a class="menu-link" href="#performance">performance</a></div> -->
                 <!-- <div class="menu-item"><a class="menu-link" href="#contact">contact</a></div> -->
+                <div class="text-left pl-2 pr-2 pt-2 align-bottom h-full">
+                    <a href="https://twitter.com/overandthrough"><img src="images/twitter.svg" alt="twitter" class="social"></a>
+                    &nbsp;
+                    <a href="https://instagram.com/overandthrough"><img src="images/instagram.svg" alt="instagram" class="social"></a>
+                    &nbsp;
+                    <a href="https://clairecronin.bandcamp.com"><img src="images/bandcamp-button-bc-circle-black-64.png" alt="bandcamp" class="social"></a>
+                </div>
             </div>
 
             <!-- main content section -->
-            <div id="content-box" class="flex-1 m-0 p-0 pl-8 max-h-screen overflow-y-scroll">
+            <div id="content-box" class="flex-1 m-0 p-0 pl-8 pr-8 max-h-screen overflow-y-scroll">
                 <div class="content-section-box"><img src="images/sorrowhand.jpg">
                     <div id="about" class="content-section-box"></div>
                     <div id="writing" class="content-section-box"></div>
@@ -82,6 +90,17 @@
             </div>
         </div>
 
+    </div>
+
+    <div class="text-right text-sm m-4 mt-32">
+        <div>site by <a href="http://catfact.net">catfact</a></div>
+        <div>css by <a href="https://tailwindcss.com">tailwind</a></div>
+        <div>icons by <a href="https://www.flaticon.com/authors/pixel-perfect" 
+            title="pixel perfect">pixel perfect</a>
+            from <a href="https://www.flaticon.com/" title="flaticon">flaticon</a>,
+            licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
+                target="_blank">CC 3.0 BY</a>
+        </div>
     </div>
 </body>
 

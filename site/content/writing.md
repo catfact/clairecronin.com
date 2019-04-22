@@ -1,24 +1,30 @@
+# WRITING
+
 ## NON-FICTION & HYBRID
 
-"Transcendental Repair: The Ghost Film as Family Melodrama"
+#### "Transcendental Repair: The Ghost Film as Family Melodrama"
 in [Horror Studies, Vol. 10:1, Spring 2019](http://horrorstudiesjournal.com/vol10.html)
 
-"Blue Light of the Screen: Notes on Horror" 
+#### "Blue Light of the Screen: Notes on Horror" 
 in [*Bennington Review, Issue 3*](http://www.benningtonreview.org/claire-cronin-1)
 
-"On Mysteria: H.D.'s Mystical, Hysterical Poetics" in [*Yes Femmes, Issue 2*](http://yesfemmes.com/issues/fandom/on-mysteria-hds-mystical-hysterical-poetics)
+#### "On Mysteria: H.D.'s Mystical, Hysterical Poetics"
+in [*Yes Femmes, Issue 2*](http://yesfemmes.com/issues/fandom/on-mysteria-hds-mystical-hysterical-poetics)
 
-
+-----
 ## CHAPBOOKS
 
-*A Spirit is a Mood Without a Body*, Salt Hill 2018. Winner of the Dead Lake Chapbook Contest, judged by Ari Banias. 
+#### *A Spirit is a Mood Without a Body*, Salt Hill 2018.
+Winner of the Dead Lake Chapbook Contest, judged by Ari Banias. 
 Available here: [Salt Hill](http://salthilljournal.net/a-spirit-is-a-mood-without-a-b/)
 
 
-*Therese*, H_NGM_N Press 2014 
+#### *Therese*, H\_NGM\_N Press 2014 
 Out of print.
----  review by Becky Varley-Winter in [*Sabotage Reviews*](http://sabotagereviews.com/2015/04/07/therese-by-claire-cronin/)
----  review by Katie Burke in [*probably crying*](http://probablycryingreview.com/post/106612914295/therese-by-claire-cronin-im-therese-youre)
+Review by Becky Varley-Winter in [*Sabotage Reviews*](http://sabotagereviews.com/2015/04/07/therese-by-claire-cronin/)
+Review by Katie Burke in [*probably crying*](http://probablycryingreview.com/post/106612914295/therese-by-claire-cronin-im-therese-youre)
+
+-----
 
 ## POEMS
 
