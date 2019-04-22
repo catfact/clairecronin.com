@@ -35,35 +35,43 @@ a {
 ol {
     @apply leading-none;
     @apply text-sm;
+    @apply -mb-2;
+    @apply -mt-4;
 }
 
 ul {
     @apply leading-none;
     @apply text-sm;
+    @apply -mb-2;
+    @apply -mt-4;
 }
 
 li { 
     @apply m-0 p-0 leading-none;
+    @apply -mb-1;
+    @apply -mt-1;
 }
 
 h1 { 
-    @apply font-serif font-medium
+    @apply font-serif font-semibold;
 }
 
 h2 { 
-    @apply font-serif font-medium
+    @apply font-serif font-semibold;
 }
 
 h3 { 
-    @apply font-serif font-medium
+    @apply font-serif font-semibold;
+    @apply -mb-2;
 }
 
 h4 { 
-    @apply font-serif font-medium
+    @apply font-serif font-semibold;
+    @apply -mb-2;
 }
 
 h5 { 
-    @apply font-serif font-medium
+    @apply font-serif font-medium;
 }
 
 @tailwind utilities;

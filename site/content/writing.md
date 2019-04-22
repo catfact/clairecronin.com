@@ -72,7 +72,6 @@ in [*NIGHTBLOCK*: Edition Three](http://www.nightblockmag.com/e3cronin/)
 "Blessing" 
 in [*DIALOGIST*: Vol. II, Issue I](http://dialogist.org/v2i1-claire-cronin/)
 
-"Fortune"  
+"Fortune" 
 "Ohio"
 in [*Yalobusha Review*: Issue 20](http://yr.olemiss.edu/piece/cronin/)
-
