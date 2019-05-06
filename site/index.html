@@ -1,110 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>claire cronin</title>
+  <title>claire cronin</title>
 
 
-<!---------------------------------------------->
-<!-- styles  ----------------------------------->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css?family=Cousine|Merriweather|Merriweather+Sans" rel="stylesheet">
+  <!---------------------------------------------->
+  <!-- styles  ----------------------------------->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Cousine|Merriweather|Merriweather+Sans" rel="stylesheet">
 
-<link href="css/styles.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 
-<!---------------------------------------------->
-<!-- scripts ----------------------------------->
+  <!---------------------------------------------->
+  <!-- scripts ----------------------------------->
 
-<!-- showdown -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+  <!-- showdown -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
 
-<script>
+  <script>
     // request content stored in an external file.
     // file: relative path to file
     // callback: asynchronous content handler
     function load_content(file, callback) {
-        var request = new XMLHttpRequest();
-        request.onload = function () {
-            if (this.status == 200) {
-                callback(this.responseText);
-            }
-        };
-        request.open('GET', file, true);
-        request.send();
+    var request = new XMLHttpRequest();
+    request.onload = function () {
+    if (this.status == 200) {
+    callback(this.responseText);
+    }
+    };
+    request.open('GET', file, true);
+    request.send();
     }
 
     // often, the current anchor is going to point to dynamic content that is not loaded yet
     // this should check the anchor and re-navigate to iT
     function refresh_anchor() {
-        var urlParts = document.URL.split('#');
-        var anchor = (urlParts.length > 1) ? urlParts[1] : null;
-        if (anchor) {
-            window.location.href = "#" + anchor;
-        }
+    var urlParts = document.URL.split('#');
+    var anchor = (urlParts.length > 1) ? urlParts[1] : null;
+    if (anchor) {
+    window.location.href = "#" + anchor;
+    }
     }
 
     function add_content_section(name) {
-        var file = "content/" + name + ".md";
-        var box = document.querySelector("#" + name);
-        load_content(file, function (txt) {
-            var converter = new showdown.Converter();
-            var html = converter.makeHtml(txt);
-            box.innerHTML = html;
-            refresh_anchor();
-        });
+    var file = "content/" + name + ".md";
+    var box = document.querySelector("#" + name);
+    load_content(file, function (txt) {
+    var converter = new showdown.Converter();
+    var html = converter.makeHtml(txt);
+    box.innerHTML = html;
+    refresh_anchor();
+    });
     }
-</script>
+  </script>
 
-<body class="bg-grey-lightest">
+  <body class="bg-grey-lightest">
 
     <div class="container bg-grey-lighter mx-auto p-0 m-0 h-screen w-screen">
-        <div class="fixed pin-t pin-l pl-1 pt-1 pb-1 m-0 bg-grey-lighter max-w-1200 flex flex-wrap">
+      <div class="fixed pin-t pin-l pl-1 pt-1 pb-1 m-0 bg-grey-lighter max-w-1200 flex flex-wrap">
+	<!--
             <div class="sm:mr-16 md:mr-32 lg:mr-32 xl:mr-64 pt-1">
-                <a class="menu-link" href="#about">ABOUT</a>
-                <a class="menu-link" href="#writing">WRITING</a>
-                <a class="menu-link" href="#music">MUSIC</a>
+              <a class="menu-link" href="#about">ABOUT</a>
+              <a class="menu-link" href="#writing">WRITING</a>
+              <a class="menu-link" href="#music">MUSIC</a>
             </div>
+	    
             <div class="flex-grow text-right pr-2 pt-1">
-                <a href="https://twitter.com/churchofdespair"><img src="images/twitter.svg" alt="twitter"
-                        class="social"></a>
-                &nbsp;
-                <a href="https://instagram.com/overandthrough"><img src="images/instagram.svg" alt="instagram"
-                        class="social"></a>
-                &nbsp;
-                <a href="https://open.spotify.com/artist/3QpahvBtZqiCtP5aacbX1I"><img src="images/spotify.svg"
-                        alt="spotify" class="social"></a>
+              <a href="https://twitter.com/churchofdespair"><img src="images/twitter.svg" alt="twitter"
+								 class="social"></a>
+              &nbsp;
+              <a href="https://instagram.com/overandthrough"><img src="images/instagram.svg" alt="instagram"
+								  class="social"></a>
+              &nbsp;
+              <a href="https://open.spotify.com/artist/3QpahvBtZqiCtP5aacbX1I"><img src="images/spotify.svg"
+										    alt="spotify" class="social"></a>
+	      <a href="https://clairecronin.bandcamp.com/"><img src="images/bandcamp-button-circle-black-128.png"
+								alt="spotify" class="social"></a>
             </div>
+	    -->
+	
+	<div class="sm:mr-16 md:mr-32 lg:mr-32 xl:mr-64 pt-1">
+	  
+          <a href="https://twitter.com/churchofdespair"><img src="images/twitter.svg" alt="twitter"
+							     class="social"></a>
+          &nbsp;
+          <a href="https://instagram.com/overandthrough"><img src="images/instagram.svg" alt="instagram"
+							      class="social"></a>
+          &nbsp;
+          <a href="https://open.spotify.com/artist/3QpahvBtZqiCtP5aacbX1I"><img src="images/spotify.svg"
+										alt="spotify" class="social"></a>
+          &nbsp;
+	  <a href="https://clairecronin.bandcamp.com/"><img src="images/bandcamp-button-circle-black-128.png"
+							    alt="spotify" class="social"></a>
         </div>
-
-        <!-- main content section -->
-        <div id="content-box" class="m-0 px-1 mt-12 max-w-full max-h-screen overflow-y-scroll">
-
-            <div class="p-2 mb-8 mt-16 text-3xl font-medium text-left font-serif">Claire Cronin</div>
-            <div class="float-none p-1 m-1"><img src="images/sorrowhand.jpg"></div>
-
-            <div id="about" class="content-section-box"></div>
-            <div id="writing" class="content-section-box"></div>
-            <div id="music" class="content-section-box"></div>
-
-
-            <script>
-                var content_box = document.querySelector("#content-box");
-                add_content_section("about");
-                add_content_section("writing");
-                add_content_section("music");
-            </script>
-
-            <div class="text-right text-sm m-4 mt-32">
-                <div>site by <a href="http://catfact.net">catfact</a></div>
-                <div>css by <a href="https://tailwindcss.com">tailwind</a></div>
-                <div>icons by <a href="https://www.flaticon.com/authors/pixel-perfect" title="pixel perfect">pixel
-                        perfect</a>
-                    from <a href="https://www.flaticon.com/" title="flaticon">flaticon</a>,
-                    licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
-                        target="_blank">CC 3.0 BY</a>
-                </div>
-            </div>
+	
+        <div class="flex-grow text-right pr-2 pt-1">
+          <a class="menu-link" href="#about">ABOUT</a>
+          <a class="menu-link" href="#writing">WRITING</a>
+          <a class="menu-link" href="#music">MUSIC</a>
         </div>
+	
+      </div>
+
+      <!-- main content section -->
+      <div id="content-box" class="m-0 px-1 mt-12 max-w-full max-h-screen overflow-y-scroll">
+
+        <div class="p-2 mb-8 mt-16 text-3xl font-medium text-left font-serif">Claire Cronin</div>
+        <div class="float-none p-1 m-1"><img src="images/sorrowhand.jpg"></div>
+
+        <div id="about" class="content-section-box"></div>
+        <div id="writing" class="content-section-box"></div>
+        <div id="music" class="content-section-box"></div>
+
+
+        <script>
+          var content_box = document.querySelector("#content-box");
+          add_content_section("about");
+          add_content_section("writing");
+          add_content_section("music");
+        </script>
+
+        <div class="text-right text-sm m-4 mt-32">
+          <div>site by <a href="http://catfact.net">catfact</a></div>
+          <div>css by <a href="https://tailwindcss.com">tailwind</a></div>
+          <div>icons by <a href="https://www.flaticon.com/authors/pixel-perfect" title="pixel perfect">pixel
+              perfect</a>
+            from <a href="https://www.flaticon.com/" title="flaticon">flaticon</a>,
+            licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
+                           target="_blank">CC 3.0 BY</a>
+          </div>
+        </div>
+      </div>
     </div>
 
-</body>
+  </body>
 
 </html>
