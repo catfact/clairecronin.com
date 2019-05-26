@@ -4,7 +4,8 @@
 
 .menu-link {   
     @apply flex-none;
-    @apply font-sans;
+    @apply font-serif;
+    @apply font-semibold;
     @apply text-center;
     @apply py-0 px-1 m-1;
     @apply bg-grey-light;
@@ -19,8 +20,9 @@
 }
 
 img { 
-    max-width: 340px;
+    max-width: 600px;
     clear:both;
+    @apply resize;
 }
 
 img.social { 

@@ -32,7 +32,7 @@
     }
 
     // often, the current anchor is going to point to dynamic content that is not loaded yet
-    // this should check the anchor and re-navigate to iT
+    // this should check the anchor and re-navigate to it
     function refresh_anchor() {
     var urlParts = document.URL.split('#');
     var anchor = (urlParts.length > 1) ? urlParts[1] : null;
@@ -55,31 +55,18 @@
 
   <body class="bg-grey-lightest">
 
-    <div class="container bg-grey-lighter mx-auto p-0 m-0 h-screen w-screen">
-      <div class="fixed pin-t pin-l pl-1 pt-1 pb-1 m-0 bg-grey-lighter max-w-1200 flex flex-wrap">
-	<!--
-            <div class="sm:mr-16 md:mr-32 lg:mr-32 xl:mr-64 pt-1">
-              <a class="menu-link" href="#about">ABOUT</a>
-              <a class="menu-link" href="#writing">WRITING</a>
-              <a class="menu-link" href="#music">MUSIC</a>
-            </div>
-	    
-            <div class="flex-grow text-right pr-2 pt-1">
-              <a href="https://twitter.com/churchofdespair"><img src="images/twitter.svg" alt="twitter"
-								 class="social"></a>
-              &nbsp;
-              <a href="https://instagram.com/overandthrough"><img src="images/instagram.svg" alt="instagram"
-								  class="social"></a>
-              &nbsp;
-              <a href="https://open.spotify.com/artist/3QpahvBtZqiCtP5aacbX1I"><img src="images/spotify.svg"
-										    alt="spotify" class="social"></a>
-	      <a href="https://clairecronin.bandcamp.com/"><img src="images/bandcamp-button-circle-black-128.png"
-								alt="spotify" class="social"></a>
-            </div>
-	    -->
+    <div class="container bg-grey-lighter p-0 m-0 h-screen w-screen pl-2">
+
+      <!-- pinned navigation area -->
+      <div class="fixed pin-t pin-l pl-2 pt-2 pb-1 m-0 bg-grey-lighter max-w-1200 flex flex-wrap">
+        <div class="sm:mr-16 md:mr-32 lg:mr-32 xl:mr-64 pt-1">
+	  <a class="menu-link" href="#news">NEWS</a>
+          <a class="menu-link" href="#about">ABOUT</a>
+          <a class="menu-link" href="#writing">WRITING</a>
+          <a class="menu-link" href="#music">MUSIC</a>
+        </div>
 	
-	<div class="sm:mr-16 md:mr-32 lg:mr-32 xl:mr-64 pt-1">
-	  
+        <div class="flex-grow text-right pr-2 pt-1">
           <a href="https://twitter.com/churchofdespair"><img src="images/twitter.svg" alt="twitter"
 							     class="social"></a>
           &nbsp;
@@ -88,25 +75,21 @@
           &nbsp;
           <a href="https://open.spotify.com/artist/3QpahvBtZqiCtP5aacbX1I"><img src="images/spotify.svg"
 										alt="spotify" class="social"></a>
-          &nbsp;
+	  &nbsp;
 	  <a href="https://clairecronin.bandcamp.com/"><img src="images/bandcamp-button-circle-black-128.png"
 							    alt="spotify" class="social"></a>
-        </div>
-	
-        <div class="flex-grow text-right pr-2 pt-1">
-          <a class="menu-link" href="#about">ABOUT</a>
-          <a class="menu-link" href="#writing">WRITING</a>
-          <a class="menu-link" href="#music">MUSIC</a>
         </div>
 	
       </div>
 
       <!-- main content section -->
-      <div id="content-box" class="m-0 px-1 mt-12 max-w-full max-h-screen overflow-y-scroll">
+      <div id="content-box" class="m-0 px-0 pt-2 mt-12 max-w-full max-h-screen overflow-y-scroll resize">
 
-        <div class="p-2 mb-8 mt-16 text-3xl font-medium text-left font-serif">Claire Cronin</div>
+	<div class="p-2 mb-8 mt-16 text-4xl font-medium font-semibold text-left font-serif">Claire Cronin</div>
+
         <div class="float-none p-1 m-1"><img src="images/sorrowhand.jpg"></div>
-
+	
+        <div id="news" class="content-section-box"></div>
         <div id="about" class="content-section-box"></div>
         <div id="writing" class="content-section-box"></div>
         <div id="music" class="content-section-box"></div>
@@ -114,7 +97,8 @@
 
         <script>
           var content_box = document.querySelector("#content-box");
-          add_content_section("about");
+          add_content_section("news");
+	  add_content_section("about");
           add_content_section("writing");
           add_content_section("music");
         </script>
